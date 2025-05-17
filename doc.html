@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTRA | Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="FAV.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="doc.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="nav.js"></script>
+
+</head>
+<body>
+    <div class="container">
+         <header>
+  <div class="header-container">
+    <a href="index.html" style="text-decoration: none; color: inherit; display: inline-block;">
+      <div class="logo">
+        <div class="logo-icon">S</div>
+        <div>SELECTRA</div>
+      </div>
+    </a>
+    
+    <nav class="main-nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="screener.html" class="nav-link">Resume Screener</a></li>
+        <li><a href="enhancer.html" class="nav-link">Resume Enhancer</a></li>
+        <li><a href="doc.html" class="nav-link">Documentation</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+        
+        <main>
+            <h1>SELECTRA Documentation</h1>
+            
+            <div class="card">
+                <h2>Project Overview</h2>
+                <p>SELECTRA is an AI-powered resume screening application designed to streamline the hiring process for HR teams. It uses advanced natural language processing to analyze resumes against job requirements, ranking candidates based on their suitability.</p>
+                
+                <h3>Why We Built SELECTRA</h3>
+                <p>The traditional resume screening process is time-consuming and often subjective. SELECTRA addresses these challenges by:</p>
+                <ul>
+                    <li>Automating the initial screening of hundreds of resumes</li>
+                    <li>Providing objective, consistent evaluation based on job requirements</li>
+                    <li>Identifying top candidates with quantifiable match scores</li>
+                    <li>Generating targeted interview questions based on candidate profiles</li>
+                    <li>Saving HR teams countless hours in the hiring process</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>Development Team</h2>
+                <p>SELECTRA is developed by the students of Software Engineering Department of SMIU.</p>
+                
+               
+
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="PICS/W.jpeg" alt="Wasif Mehmood Ali">
+                        <h4>Wasif Mehmood Ali</h4>
+                        <p>Team Lead / Backend / AI</p>
+                        <div class="bio">Led the team, developed the core application logic and Gemini AI Model integration.</div>
+                    </div>
+                    <div class="team-member">
+                        <img src="PICS/S.jpg" alt="Tajammul Abbasi">
+                        <h4>Shaharayar Khan</h4>
+                        <p>UI/UX Lead</p>
+                        <div class="bio">Designed the modern, intuitive interface and user experience flows for SELECTRA.</div>
+                    </div>
+                    <div class="team-member">
+                        <img src="PICS/N.jpg" alt="Nasarullah">
+                        <h4>Nasarullah</h4>
+                        <p>Frontend Developer</p>
+                        <div class="bio">Implemented the responsive frontend architecture and interactive components.</div>
+                    </div>
+                    <div class="team-member">
+                        <img src="PICS/T.jpeg" alt="Shaharayar Khan">
+                        <h4>Tajammul Abbasi </h4>
+                        <p>UI & Frontend Contributor</p>
+                        <div class="bio">Collaborated on UI design and assisted in frontend development for SELECTRA.</div>
+                    </div>
+                    
+                     
+                    <div class="team-member">
+                        <img src="PICS/Z.webp" alt="Zain Zaib">
+                        <h4>Zain Zaib</h4>
+                        <p>Research Lead</p>
+                        <div class="bio">Conducted market research and created technical documentation for SELECTRA.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Technical Pipeline</h2>
+                <p>The SELECTRA application follows a structured pipeline to process resumes and generate insights:</p>
+                
+                <div class="pipeline">
+                    <div class="pipeline-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Resume Upload</h4>
+                            <p>Users upload resumes in various formats (PDF, DOCX, TXT) through a drag-and-drop interface or file browser. The application supports batch processing of multiple resumes simultaneously.</p>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="17 8 12 3 7 8"></polyline>
+                                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                                    </svg>
+                                    File API
+                                </div>
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <path d="M10 11v5"></path>
+                                        <path d="M14 11v3"></path>
+                                        <circle cx="16" cy="16" r="1"></circle>
+                                    </svg>
+                                    PDF Support
+                                </div>
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <path d="M16 13H8"></path>
+                                        <path d="M16 17H8"></path>
+                                        <path d="M10 9H8"></path>
+                                    </svg>
+                                    DOCX Support
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pipeline-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Text Extraction</h4>
+                            <p>The application extracts raw text from uploaded documents using format-specific libraries:</p>
+                            <ul>
+                                <li><strong>PDF files:</strong> Processed using PDF.js, a Mozilla-developed library that parses PDF documents in the browser without server-side dependencies.</li>
+                                <li><strong>DOCX files:</strong> Processed using Mammoth.js, which converts DOCX documents to HTML and then extracts the text content.</li>
+                                <li><strong>TXT files:</strong> Read directly using the FileReader API.</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="17 8 12 3 7 8"></polyline>
+                                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                                    </svg>
+                                    PDF.js
+                                </div>
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <path d="M16 13H8"></path>
+                                        <path d="M16 17H8"></path>
+                                        <path d="M10 9H8"></path>
+                                    </svg>
+                                    Mammoth.js
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pipeline-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>AI Analysis with Gemini</h4>
+                            <p>The extracted text is sent to Google's Gemini API with a carefully crafted prompt that includes:</p>
+                            <ul>
+                                <li>The job requirements entered by the HR team</li>
+                                <li>Instructions for analyzing the resume content</li>
+                                <li>A specific response format for consistent parsing</li>
+                            </ul>
+                            <p>The API returns structured data including candidate name (extracted from resume), match score (0-100), relevant experience, key skills, and education.</p>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                    Gemini 2.0 Flash
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pipeline-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Results Processing</h4>
+                            <p>The application processes the API response to:</p>
+                            <ul>
+                                <li>Sort candidates by match score (descending)</li>
+                                <li>Calculate aggregate metrics (average score, top candidates, etc.)</li>
+                                <li>Generate visual indicators (score bars, color-coded ratings)</li>
+                                <li>Prepare data for display in the results table</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                                    </svg>
+                                    Data Processing
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pipeline-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Interview Questions Generation</h4>
+                            <p>For the top candidates, SELECTRA generates targeted interview questions by:</p>
+                            <ul>
+                                <li>Sending the job requirements and candidate profiles to Gemini</li>
+                                <li>Requesting specific, relevant questions categorized by type (technical, behavioral, etc.)</li>
+                                <li>Formatting the responses for clear display in the UI</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                    Question Generation
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pipeline-step">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h4>Export Functionality</h4>
+                            <p>HR teams can export results in multiple formats:</p>
+                            <ul>
+                                <li><strong>PDF Export:</strong> Uses jsPDF to generate professional reports with candidate rankings and interview questions</li>
+                                <li><strong>Excel Export:</strong> Uses SheetJS to create spreadsheet-ready data for further analysis</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                    jsPDF
+                                </div>
+                                <div class="tech-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <path d="M16 13H8"></path>
+                                        <path d="M16 17H8"></path>
+                                        <path d="M10 9H8"></path>
+                                    </svg>
+                                    SheetJS
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Evaluation Methodology</h2>
+                <p>SELECTRA evaluates candidates based on several factors extracted from their resumes:</p>
+                
+                <h3>Match Score Calculation</h3>
+                <p>The AI evaluates each resume against the job requirements and assigns a score (0-100) based on:</p>
+                <ul>
+                    <li><strong>Relevant Experience:</strong> Years and quality of experience matching the job requirements</li>
+                    <li><strong>Skills Match:</strong> Presence and proficiency of required skills</li>
+                    <li><strong>Education:</strong> Relevance and level of education</li>
+                    <li><strong>Keyword Analysis:</strong> Presence of important keywords from the job description</li>
+                </ul>
+                
+                <h3>Score Categories</h3>
+                <ul>
+                    <li><span class="score score-high">90-100%</span> Excellent match - Strong in all required areas</li>
+                    <li><span class="score score-high">80-89%</span> Very good match - Meets most requirements</li>
+                    <li><span class="score score-medium">70-79%</span> Good match - Meets many requirements</li>
+                    <li><span class="score score-medium">60-69%</span> Fair match - Meets some requirements</li>
+                    <li><span class="score score-low">Below 60%</span> Weak match - Lacks key requirements</li>
+                </ul>
+                
+                <h3>Interview Questions Generation</h3>
+                <p>Questions are tailored based on:</p>
+                <ul>
+                    <li>Gaps between candidate qualifications and job requirements</li>
+                    <li>Areas where more information is needed</li>
+                    <li>Specific skills or experiences mentioned in the resume</li>
+                    <li>Common interview questions for the role type</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>Technical Stack</h2>
+                <p>SELECTRA is built with modern web technologies:</p>
+                
+                <h3>Core Technologies</h3>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                            <path d="M8.5 8.5v.01"></path>
+                            <path d="M16 15.5v.01"></path>
+                            <path d="M12 12v.01"></path>
+                            <path d="M11 17v.01"></path>
+                            <path d="M7 14v.01"></path>
+                        </svg>
+                        HTML5
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        CSS3
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                            <path d="M8.5 8.5v.01"></path>
+                            <path d="M16 15.5v.01"></path>
+                            <path d="M12 12v.01"></path>
+                            <path d="M11 17v.01"></path>
+                            <path d="M7 14v.01"></path>
+                        </svg>
+                        JavaScript
+                    </div>
+                </div>
+                
+                <h3>Libraries & APIs</h3>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        PDF.js
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <path d="M16 13H8"></path>
+                            <path d="M16 17H8"></path>
+                            <path d="M10 9H8"></path>
+                        </svg>
+                        Mammoth.js
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        Gemini API
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                        </svg>
+                        jsPDF
+                    </div>
+                    <div class="tech-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <path d="M16 13H8"></path>
+                            <path d="M16 17H8"></path>
+                            <path d="M10 9H8"></path>
+                        </svg>
+                        SheetJS
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div>
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">S</div>
+                    <div>SELECTRA</div>
+                </div>
+                <p class="footer-description">AI-powered hiring solutions for modern HR teams. Streamline your hiring process with intelligent tools.</p>
+                <a href="https://www.producthunt.com/posts/selectra?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-selectra" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=963847&theme=neutral&t=1747220561394" alt="SELECTRA - AI&#0045;powered&#0032;Resume&#0032;Screening&#0032;Tool&#0032;For&#0032;Modern&#0032;HR&#0032;Teams | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="screener.html">Resume Screener</a></li>
+                    <li><a href="enhancer.html">Resume Enhancer</a></li>
+                    <li><a href="doc.html">Documentation</a></li>
+                    <li><a href="https://ai.google.dev/gemini-api/docs">Gemini Model</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Development Team</h4>
+                <ul>
+                    <li><a href="https://wasiffalishah.netlify.app/">Wasif Mehmood Ali</a></li>
+                    <li><a href="#">Shaharayar Khan</a></li>
+                    <li><a href="#">Tajammul Abbasi</a></li>
+                    <li><a href="#">Nasarullah</a></li>
+                    <li><a href="#">Zain Zaib</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            Developed by East Side &copy; 2025 SELECTRA
+        </div>
+    </footer>
+</body>
+</html>
